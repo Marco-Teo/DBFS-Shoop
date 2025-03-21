@@ -100,6 +100,7 @@ const modifiCard = function(e){
         method: "put",
         body: JSON.stringify(modifiedCard),
     headers: {
+        'Content-Type': 'application/json',
         authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2RkMjgwZDM4MzRiZjAwMTUwMDA3MDEiLCJpYXQiOjE3NDI1NDY5NTgsImV4cCI6MTc0Mzc1NjU1OH0.vzKUGLaAgCnRP8e36hrgdDL4GwQ-6neRNOSeYfI-mgI"
     }
 
